@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:gravity = "fill"
+    android:background = "@drawable/homepage"
+    android:weightSum="1"
+    android:id="@+id/LinearLayout">
+
+
+    <Button
+        android:layout_width="3.25in"
+        android:layout_height="0.75in"
+        android:text=""
+        android:background = "@drawable/about"
+        android:layout_marginTop = "2.127in"
+        android:layout_marginLeft="0.25in"
+        android:id="@+id/button"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="3.25in"
+        android:layout_height="0.75in"
+        android:text=""
+        android:id="@+id/button2"
+        android:background = "@drawable/process"
+        android:layout_marginTop = "0.25in"
+        android:layout_marginLeft="0.25in"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="3.25in"
+        android:layout_height="0.75in"
+        android:text=""
+        android:id="@+id/button3"
+        android:background = "@drawable/people"
+        android:layout_marginTop = "0.25in"
+        android:layout_marginLeft="0.25in"
+        android:clickable="true" />
+
+
+</LinearLayout>
