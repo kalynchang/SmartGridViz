@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:orientation = "vertical"
     android:gravity = "fill"
+    android:background = "@drawable/homepage"
     android:weightSum="1"
-    android:id="@+id/LinearLayout">
-    <!--android:background = "@drawable/homepage"-->
+    android:id="@+id/MenuFragmentLayout"
+    tools:context=".SmartGridViz$MenuFragment">
 
 
-<!--
     <Button
         android:layout_width="3.25in"
         android:layout_height="0.75in"
@@ -40,6 +40,5 @@
         android:layout_marginLeft="0.25in"
         android:clickable="true" />
 
--->
 
 </LinearLayout>
