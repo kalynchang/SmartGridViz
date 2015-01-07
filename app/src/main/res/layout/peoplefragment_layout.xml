@@ -1,12 +1,17 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation = "vertical"
-    android:gravity = "fill"
-    android:background = "@drawable/peoplepage"
-    android:weightSum="1"
+    android:background ="@drawable/aboutxml"
     android:id="@+id/PeopleFragmentLayout"
     tools:context=".SmartGridViz$PeopleFragment">
 
-</RelativeLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/peoplepage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</LinearLayout>

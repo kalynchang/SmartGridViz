@@ -103,24 +103,30 @@ public class MainActivity extends ActionBarActivity {
 
     public static class AboutFragment extends Fragment {
         private final String TAG = AboutFragment.class.getSimpleName();
-        public AboutFragment() {
-
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.aboutfragment_layout, container, false);
+            return rootView;
         }
 
     }
 
     public static class ProcessFragment extends Fragment {
         private final String TAG = AboutFragment.class.getSimpleName();
-        public ProcessFragment() {
-
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.processfragment_layout, container, false);
+            return rootView;
         }
 
     }
 
     public static class PeopleFragment extends Fragment {
         private final String TAG = PeopleFragment.class.getSimpleName();
-        public PeopleFragment() {
-
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.peoplefragment_layout, container, false);
+            return rootView;
         }
 
     }
