@@ -14,7 +14,7 @@
         android:layout_width="3.25in"
         android:layout_height="0.75in"
         android:text=""
-        android:background = "@drawable/about"
+        android:background = "@drawable/aboutxml"
         android:layout_marginTop = "2.127in"
         android:layout_marginLeft="0.25in"
         android:id="@+id/AboutButton"
@@ -35,7 +35,7 @@
         android:layout_height="0.75in"
         android:text=""
         android:id="@+id/PeopleButton"
-        android:background = "@drawable/people"
+        android:background = "@drawable/peoplexml"
         android:layout_marginTop = "0.25in"
         android:layout_marginLeft="0.25in"
         android:clickable="true" />
